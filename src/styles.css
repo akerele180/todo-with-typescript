@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 0.3fr;
+}
+input {
+  padding: 5px;
+  margin: 3px;
+  -moz-appearance: none;
+}
+.add-button {
+  padding: 5px;
+  margin: 3px;
+  grid-area: 1/2/3/3;
+  cursor: pointer;
+}
